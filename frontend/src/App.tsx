@@ -13,7 +13,7 @@ function App() {
 {/*         <h1 className="text-primary">Hello World</h1>
         <h1 className="text-success">Olá Mundo !</h1>
         <h1 className="text-success">שלום עולם</h1> */}
-<h1 className="text-primary py-3">Dashboard de Vendas</h1> 
+<h1 className="text-primary py-3">Dashboard de vendas</h1> 
 
 <div className="row px-3" >
 <div className="col-md-6" >

@@ -18,7 +18,7 @@ public class Seller {
 @GeneratedValue(strategy = GenerationType.IDENTITY)
 private	Long id;
 private	String name;
-private	String imageUri;
+
 
 @OneToMany(mappedBy = "seller")
 private List<Sale> sales = new ArrayList<>();
@@ -45,7 +45,7 @@ public Seller(Long id, String name, String imageUri, List<Sale> sales) {
 	super();
 	this.id = id;
 	this.name = name;
-	this.imageUri = imageUri;
+
 	this.sales = sales;
 }
 
@@ -66,13 +66,7 @@ public void setName(String name) {
 }
 
 
-public String getImageUri() {
-	return imageUri;
-}
 
-public void setImageUri(String imageUri) {
-	this.imageUri = imageUri;
-}
 
 
 
